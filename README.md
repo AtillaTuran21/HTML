@@ -1,2 +1,2 @@
 # HTML
-HTML Örnekleri
+Merhabalar burada HTML kullanarak yaptığım uygulamalar vardır.
