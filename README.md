@@ -1,2 +1,2 @@
 # HTML
-Merhabalar burada HTML kullanarak yaptığım uygulamalar vardır.
+Merhabalar burada HTML kullanarak yaptığım uygulamalarımı paylaşıyorum.
