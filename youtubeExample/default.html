@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Efe Kadir Özen">
+        <title>Youtube</title>
+    </head>
+    <body>
+        <!--Site başlık kısmı için header -->
+        <header>
+            <!--sitenin navigation kısmı olduğunu belirtmek için nav tagı koydum-->
+            <nav>
+                <!-- yazıları yan yana yazıp üst kısmı oluşturmak için table oluşturuyorum-->
+                <table border="0" style="font-size: 30px;height: 50px;width: 1600px;">
+                    <tr>
+                        <td style="width: 350px;"></td>
+                        <td style="background-color: lightgray;">
+                            Tümü
+                        </td>
+                        <td style="background-color: lightgray;">
+                            Mix'ler
+                        </td>
+                        <td style="background-color: lightgray;">
+                            Oyun
+                        </td>
+                        <td style="background-color: lightgray;">
+                            Müzik
+                        </td>
+                        <td style="background-color: lightgray;">
+                            Podcast
+                        </td>
+                        <td style="background-color: lightgray;">
+                            Yayınlar
+                        </td>
+                        <td style="background-color: lightgray;">
+                            Kanallar
+                        </td>
+                        <td style="background-color: lightgray;">
+                            Futbol
+                        </td>
+                        <td style="background-color: lightgray;">
+                            İzlenenler
+                        </td>
+                        <td style="background-color: lightgray;">
+                            Son yüklenenler
+                        </td>
+                    </tr>
+                </table>
+            </nav>
+        </header>
+
+        <!--sitenin section kısmı olduğunu belirtmek için section tagını kullandım -->
+        <section>
+            <!--sol kısmı oluşturmak için table oluşturdum -->
+            <table border="0" style="width: 1600px; height: 1000px;"> 
+                <tr>
+                    <td>
+                        <!-- alt alta yazmak için unorder-list tagı kullandım ve type özelliği ile noktaları kaldırdım-->
+                        <ul type="none" style="font-size: 25px;">
+                            <li style="height: 50px;">
+                                <!-- li tagının içinde tekrar table oluşturup logo ile yazıyı yan yana koyduk-->
+                               <table>
+                                    <tr>
+                                        <td style="width: 70px;"><img src="assets/logo.png" style="width: 50px;"></td>
+                                        <td>Tümü</td>
+                                    </tr>
+                               </table>
+                            </li>
+                            <li style="height: 50px;">
+                                <table>
+                                    <tr>
+                                        <td style="width: 70px;"><img src="assets/logo.png" style="width: 50px;"></td>
+                                        <td>Kitaplık</td>
+                                    </tr>
+                               </table>
+                            </li>
+                            <li style="height: 50px;">
+                                <table>
+                                    <tr>
+                                        <td style="width: 70px;"><img src="assets/logo.png" style="width: 50px;"></td>
+                                        <td>Beğenilen</td>
+                                    </tr>
+                               </table>
+                            </li>
+                            <li style="height: 50px;">
+                                -----------------
+                            </li>
+                            <li style="height: 50px;">
+                                <table>
+                                    <tr>
+                                        <td style="width: 70px;"><img src="assets/logo.png" style="width: 50px;"></td>
+                                        <td>Son yüklenenler</td>
+                                    </tr>
+                               </table>
+                            </li>
+                            <li style="height: 50px;">
+                                <table>
+                                    <tr>
+                                        <td style="width: 70px;"><img src="assets/logo.png" style="width: 50px;"></td>
+                                        <td>Canlı</td>
+                                    </tr>
+                               </table>
+                            </li>
+                            <li style="height: 50px;">
+                                <table>
+                                    <tr>
+                                        <td style="width: 70px;"><img src="assets/logo.png" style="width: 50px;"></td>
+                                        <td>Spor</td>
+                                    </tr>
+                               </table>
+                            </li>
+                            <li style="height: 50px;">
+                                -----------------
+                            </li>
+                            <li style="height: 50px;">
+                                <table>
+                                    <tr>
+                                        <td style="width: 70px;"><img src="assets/logo.png" style="width: 50px;"></td>
+                                        <td>Geçmiş</td>
+                                    </tr>
+                               </table>
+                            </li>
+                            <li style="height: 50px;">
+                                <table>
+                                    <tr>
+                                        <td style="width: 70px;"><img src="assets/logo.png" style="width: 50px;"></td>
+                                        <td>Özel</td>
+                                    </tr>
+                               </table>
+                            </li>
+                            <li style="height: 50px;">
+                                <table>
+                                    <tr>
+                                        <td style="width: 70px;"><img src="assets/logo.png" style="width: 50px;"></td>
+                                        <td>Favoriler</td>
+                                    </tr>
+                               </table>
+                            </li>
+                            <li style="height: 50px;">
+                                <table>
+                                    <tr>
+                                        <td style="width: 70px;"><img src="assets/logo.png" style="width: 50px;"></td>
+                                        <td>Oynatma Listesi</td>
+                                    </tr>
+                               </table>
+                            </li>
+                            <li style="height: 200px;">
+
+                            </li>
+                        </ul>
+                    </td>
+                    <!-- td nin içine table oluşturdum bu sayede resim ile videoları rahatça koyabilirim-->
+                    <td style="width: 1300px;">
+                        <table border="0">
+                            <tr>
+                                <!-- colspan kullanarak resmin table'ı bozmasını önledim-->
+                                <td colspan="4">
+                                    <img src="assets/img0.png" style="width: 1450px;">
+                                </td>
+                            </tr>
+
+                            <tr>
+                               <td style="height: 200px;">
+                                <!--video tagıyla video koydum, control özelliği ile video başlatma düğmelerini ekledim-->
+                                <!-- autoplay kullanarak site açılınca videonun otomatik başlamasını sağladım-->
+                                <!-- muted kullanarak site açıldığında videoyu sessiz şekilde başlamasını sağladım-->
+                                    <video controls autoplay muted src="assets/beko.mp4" style="width: 350px;"></video>
+                               </td> 
+                               <td style="height: 200px;">
+                                    <video controls autoplay muted src="assets/beko.mp4" style="width: 350px;"></video>
+                               </td> 
+                               <td style="height: 200px;">
+                                    <video controls autoplay muted loop src="assets/beko.mp4" style="width: 350px;"></video>
+                               </td> 
+                               <td style="height: 200px;">
+                                    <video controls autoplay muted loop src="assets/beko.mp4" style="width: 350px;"></video>
+                               </td> 
+                            </tr> 
+                            <tr>
+                                <td style="height: 200px;">
+                                    <!-- iframe kullanarak youtube'dan gömülü bir şekilde link kullanarak video ekledim-->
+                                    <iframe src="https://www.youtube.com/embed/t0Q2otsqC4I" style="width:350px;height:200px"></iframe>
+                                </td>
+                                <td style="height: 200px;">
+                                    <iframe src="https://www.youtube.com/embed/t0Q2otsqC4I" style="width:350px;height:200px"></iframe>
+                                </td>
+                                <td style="height: 200px;">
+                                    <iframe src="https://www.youtube.com/embed/t0Q2otsqC4I" style="width:350px;height:200px"></iframe>
+                                </td>
+                                <td style="height: 200px;">
+                                    <iframe src="https://www.youtube.com/embed/t0Q2otsqC4I" style="width:350px;height:200px"></iframe>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <!-- son olarak sitenin iletişim kısmı için olan footer olduğunu belirtmek için footer kullandım-->
+        <footer>
+            <table border="0" style="width: 1700px;height: 200px;">
+                <tr>
+                    <!-- sol tarafa doğru biraz boşluk için boş td oluşturdum-->
+                    <td style="width: 250px;">
+
+                    </td>
+                    <td style="width: 350px;">
+                        <!--list-style ile yazıların solundaki yuvarlağı değiştirdim -->
+                        <ul type="circle" style="font-size: 25px;">
+                            <li>
+                                İletişim
+                            </li>
+                            <li>
+                                Hakkımızda
+                            </li>
+                        </ul>
+                    </td>
+                    <td style="width: 350px;">
+                        <p style="font-size: 25px;">
+                            Bu site haber içerikleri için <br>
+                            üretilmiştir. Bu site haber <br>
+                            içerikleri için üretilmiştir.
+                        </p>
+                    </td>
+                    <td style="width: 350px">
+                        <img src="assets/resim.png">
+                    </td>
+                    <td style="font-size: 25px;">
+                        <p style="font-size: 25px;">
+                            Bu site haber içerikleri için <br>
+                            üretilmiştir. Bu site haber <br>
+                            içerikleri için üretilmiştir.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </footer>
+    </body>
+</html> 
+<!-- Yapımcı : Efe Kadir Özen -->
+<!-- Düzenleyen : Efe Kadir Özen -->
